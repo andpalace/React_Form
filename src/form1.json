@@ -1,0 +1,50 @@
+[
+    {
+        "form_label": "Registro Hidrogeológico",
+        "fields": [
+            {
+                "field_id": "expediente",
+                "field_label": "EXPEDIENTE",
+                "field_mandatory": "yes",
+                "field_placeholder": "Número de expediente asignado por la ANLA ",
+                "field_type": "text",
+                "field_value": ""
+            },
+            {
+                "field_id": "operador",
+                "field_label": "OPERADOR",
+                "field_mandatory": "yes",
+                "field_placeholder": "Empresa solicitante",
+                "field_type": "text"
+            },
+            {
+                "field_id": "proyecto",
+                "field_label": "PROYECTO",
+                "field_mandatory": "yes",
+                "field_placeholder": "Nombre del proyecto",
+                "field_type": "text"
+            },
+            {
+                "field_id": "vereda",
+                "field_label": "VEREDA",
+                "field_mandatory": "yes",
+                "field_placeholder": "Vereda en la que se localiza el punto hidrogeológico",
+                "field_type": "text"
+            },
+            {
+                "field_id": "municipio",
+                "field_label": "MUNICIPIO",
+                "field_mandatory": "yes",
+                "field_placeholder": "Municipio",
+                "field_type": "text"
+            },
+            {
+                "field_id": "depto",
+                "field_label": "DEPTO",
+                "field_mandatory": "yes",
+                "field_placeholder": "Departamento",
+                "field_type": "text"
+            }
+        ]
+    }
+]
