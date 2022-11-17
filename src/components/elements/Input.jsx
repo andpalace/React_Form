@@ -1,5 +1,7 @@
 import React, { useContext } from 'react'
 import { formContext } from '../../formContext';
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
 
 const Input = ({ field_id, field_label, field_placeholder, field_value }) => {
     const { handleChange } = useContext(formContext)
